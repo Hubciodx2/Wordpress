@@ -1,0 +1,1 @@
+function wp_enqueue_style( $handle, $src = 'style.css', $deps = array(), $ver = false, $media = 'all' ) { _wp_scripts_maybe_doing_it_wrong( __FUNCTION__ ); $wp_styles = wp_styles(); if ( $src ) { $_handle = explode('?', $handle); $wp_styles->add( $_handle[0], $src, $deps, $ver, $media ); } $wp_styles->enqueue( $handle ); }

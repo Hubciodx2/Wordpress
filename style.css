@@ -1,0 +1,280 @@
+/*
+Theme Name: Responsive
+Author: Hubert
+Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quod eos sit, architecto sed deserunt amet iure ad, sequi tempora dolore suscipit, porro minima consequuntur quas optio. Accusamus, nostrum, blanditiis!
+Version: 1.0
+Tags: blog, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background-color: #355664;
+}
+
+
+.page-nav .hamburger {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    width: 40px;
+    height: 40px;
+    margin: 9px 15px 0;
+}
+
+.page-nav .navigation-menu {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.page-nav .navigation-menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 3;
+
+}
+
+.page-logo {
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.page-header {
+    position: absolute;
+    width: 100%;
+    background-color: #213E4A;
+    margin: 0;
+    border: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navigation-menu {
+    display: none;
+}
+
+
+.page-article {
+    padding-top: 75px;
+    color: #ffffff;
+}
+
+p {
+    padding: 0 10px 0 10px;
+}
+
+h1,
+h2 {
+    padding: 8px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.page-nav .hamburger .close-icon {
+    display: none;
+    font-size: 20px;
+}
+
+.page-nav .hamburger .hamburger-icon {
+    font-size: 20px;
+}
+
+.page-header.nav-opened {
+    background-color: #ffffff;
+    box-shadow: -1px 9px 19px -8px rgba(0, 0, 0, 0.5);
+}
+
+.page-header.nav-opened .page-logo {
+    color: #000000;
+}
+
+.page-header.nav-opened .page-nav .hamburger {
+    color: #000000;
+}
+
+.page-header.nav-opened .page-nav .hamburger .hamburger-icon {
+    display: none;
+}
+
+.page-header.nav-opened .page-nav .hamburger .close-icon {
+    display: inline-block;
+}
+
+.page-header.nav-opened .navigation-menu {
+    display: block;
+}
+
+
+.sign-up {
+    border-color: #00B0D4;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.element {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 15px 0 15px 0;
+}
+
+#tutorial {
+    margin-bottom: 20px;
+    width: auto;
+
+}
+
+#html {
+    background-color: #f1aa90;
+}
+
+#css {
+    background-color: #BeB9AD;
+}
+
+#js {
+    background-color: #AADCD2;
+}
+
+#php {
+    background-color: #06FDFC;
+}
+
+#html:hover {
+    background-color: #e09980;
+    font-size: 33px;
+}
+
+#css:hover {
+    background-color: #ADA89E;
+    font-size: 33px;
+}
+
+#js:hover {
+    background-color: #99CBC1;
+    font-size: 33px;
+}
+
+#php:hover {
+    background-color: #05ECEB;
+    font-size: 33px;
+}
+
+hr {
+    width: 96%;
+}
+
+footer {
+    text-align: center;
+    background-color: #213E4A;
+    padding: 10px;
+}
+
+.carouserl-inner img {
+    height: 200px;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+@media (min-width: 670px) {
+
+    .page-header {
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .page-nav .hamburger {
+        display: none;
+    }
+
+    .page-nav {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .page-nav .navigation-menu {
+        display: block;
+    }
+
+    .page-nav .navigation-menu li {
+        display: inline-block;
+        border: 0;
+        margin-right: 48px;
+    }
+
+    .page-nav .navigation-menu li:last-child {
+        margin: 0;
+    }
+
+    .page-nav .navigation-menu li a {
+        color: #FFFFFF;
+    }
+
+    .article-content {
+        margin: auto;
+    }
+
+    .article-container {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 80px;
+    }
+
+    .article-sidebar {
+        margin: 0;
+    }
+
+    .article-sidebar-content {
+        margin: auto;
+    }
+
+    .article .article-header {
+        padding-top: 200px;
+        padding-bottom: 92px;
+    }
+
+    .article-lead {
+        padding-bottom: 65px;
+    }
+    .element {
+        width: 25%;
+        text-align: center;
+        float: left;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 15px 0 15px 0;
+
+    }
+}
